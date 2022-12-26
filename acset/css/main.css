@@ -6,7 +6,6 @@
     justify-content: space-around;
     z-index: 5;
 }
-
 .navbar__logo img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,6 +17,7 @@
 }
 
 .navbar__seach{
+    position: relative;
     display: flex;
     flex: 1;
     background-color: black;
@@ -50,12 +50,13 @@
 
 }
 .menu_search{
+    position: absolute;
     padding: 0;
     z-index: 3;
    list-style: none;
    position: absolute;
-   left: 311px;
-   top: 52px;
+   left: 0px;
+   top: 32px;
    width: 650px;
    border-radius: 3px;
    background-color: #2d2d2de4;
