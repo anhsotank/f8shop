@@ -16,14 +16,7 @@ html{
 }
 
 
-.girl{
-    height: 2000px;
-    width: 1052px;
-    margin: 0 auto;
-    background-color: #2d2d2d;
-    
 
-} 
 
 .girl__row{
     display: flex;
